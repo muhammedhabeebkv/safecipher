@@ -6,11 +6,13 @@
   "main": "index.js",
   "exports": {
     ".": {
-      "import": "./index.js"
+      "import": "./index.js",
+      "require": "./index.cjs"
     }
   },
   "files": [
     "index.js",
+    "index.cjs",
     "README.md",
     "LICENSE"
   ],
