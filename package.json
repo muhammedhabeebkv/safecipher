@@ -1,6 +1,6 @@
 {
   "name": "safe-cipher",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Universal AES-256-CBC + RSA-OAEP-4096 encryption for Node.js, Express, React, Vite, and Next.js.",
   "type": "module",
   "main": "index.js",
