@@ -1,0 +1,61 @@
+{
+  "name": "safe-cipher",
+  "version": "1.0.2",
+  "description": "Universal AES-256-CBC + RSA-OAEP-4096 encryption for Node.js, Express, React, Vite, and Next.js.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedhabeebkv/safecipher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammedhabeebkv/safecipher/issues"
+  },
+  "homepage": "https://github.com/muhammedhabeebkv/safecipher#readme",
+  "keywords": [
+    "encryption",
+    "decryption",
+    "security",
+    "aes",
+    "aes-256",
+    "aes-256-cbc",
+    "rsa",
+    "rsa-oaep",
+    "crypto",
+    "cipher",
+    "safe-cipher",
+    "file-encryption",
+    "asymmetric",
+    "symmetric",
+    "nodejs",
+    "browser",
+    "react",
+    "vite",
+    "nextjs",
+    "express"
+  ],
+  "author": {
+    "name": "Muhammed Habeeb",
+    "url": "https://github.com/muhammedhabeebkv"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=19.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
